@@ -1,0 +1,324 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+
+
+.container {
+	display: flex;
+	height: 100vh;
+}
+
+.container-pro {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.center {
+	text-align: center;
+}
+
+.row {
+	display: flex;
+	flex:1;
+}
+
+.header-container {
+	background-color: black;
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+.header {
+	background-color: black;
+	width:100vw;
+	height: 5vh;
+	display: inline-block;
+	list-style-type: none;
+	font-family: montserrat;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	line-height: 25px;
+	color: white;
+	padding-top:   1em;
+	margin-bottom: 1em;
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+
+.col-1 {
+	flex: 1;
+	background-color: black;
+}
+
+.col-2 {
+	flex: 1;
+	background-image: url("https://thecamerasview.files.wordpress.com/2017/03/dscf5990.jpg");
+	/*background-image: url("");*/
+	background-size: cover;
+	background-color: gray;
+}
+
+.content {
+	
+	background-color: black;
+	text-align: center;
+
+}
+
+.content2 {
+
+	background-color: white;
+
+}
+
+.content-area {
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
+.footer {
+	height: 4vh;
+	background-color: white;
+	font-family: montserrat;
+	color: black;
+	text-align: center;
+	padding: 1.5em;
+
+}
+
+.heading {
+	font-family: montserrat;
+	color: white;
+	text-align: center;
+	margin-top: 30vh;
+	margin-bottom: 2.5vh;
+}
+
+.heading-about {
+	font-family: montserrat;
+	color: white;
+	text-align: center;
+	letter-spacing: 8px;
+	margin-top: 5vh;
+	margin-bottom: 2.5vh;
+}
+
+.font-style {
+	font-family: montserrat;
+}
+
+.margin-top {
+	margin-top: 2em;
+}
+
+.text {
+	font-family: montserrat;
+	color: white;
+	text-align: center;
+}
+
+.paragraph-black {
+	font-family: montserrat;
+	color: white;
+	text-align: center;
+	font-weight: lighter;
+	margin-top: 5vh;
+	margin-left: 15em;
+	margin-right: 15em;
+}
+
+.paragraph-white {
+	font-family: montserrat;
+	color: black;
+	text-align: center;
+	font-weight: lighter;
+	margin-top: 5vh;
+	margin-left: 15em;
+	margin-right: 15em;
+}
+
+.menu {
+	display: inline-block;
+	list-style-type: none;
+	font-family: montserrat;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	line-height: 25px;
+	color: white;
+	margin: 100px auto;
+	/*border: 1px solid red;*/
+}
+
+.image {
+	display: block;
+	background-size: cover;
+	flex:1;
+	width: 20em;
+    height: 20em;
+   /* border:1px solid red;*/
+}
+
+.image:hover .overlay {
+  opacity: 0.6;
+}
+
+.overlay {
+	display: block;
+/*	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;*/
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: black;
+}
+
+.overlay-text {
+	font-family: montserrat;
+	color: white;
+	text-align: center;
+	font-weight: lighter;
+	padding: 9em;
+}
+
+#image1
+{
+    background-image: url("https://drscdn.500px.org/photo/119714949/m%3D900/v2?webp=true&sig=109c8124a42619cdfde0f2c2d2702c020a3857b162b26b2d7f343316fa46180d");
+}
+
+#image2
+{
+    background-image: url("https://petapixel.com/assets/uploads/2016/08/fishing.jpg");
+}
+
+#image3
+{
+    background-image: url("https://drscdn.500px.org/photo/95857515/m%3D900/v2?webp=true&sig=853d4070e0fbf39690a2e82847a30fd69d25b701a0d618e63cad65082950ace2");
+}
+
+#image4
+{
+    background-image: url("https://drscdn.500px.org/photo/124530919/m%3D900/v2?webp=true&sig=5444a1c0d31769753291d869afd7ac091bb0bf2421243bd4bb09710659d997b8");
+}
+
+#image5
+{
+    background-image: url("https://drscdn.500px.org/photo/132086793/m%3D900/v2?webp=true&sig=6a41c1c8c4c0c8af699b0c9091f87d6389a97083ff78fa02bda246ca8d058615");
+}
+
+#image6
+{
+    background-image: url("https://drscdn.500px.org/photo/114183875/m%3D900/v2?webp=true&sig=f002be17d732d0a6a4471b110a0d35cd9ae2471fb43160ae564c5af23ddedd86");
+}
+
+#image7
+{
+    background-image: url("https://drscdn.500px.org/photo/103529601/m%3D900/v2?webp=true&sig=d3f1139b64c1beaab930992425f834cedf26f8ec4de35e289a73291c4941ea0e");
+}
+
+#image8
+{
+    background-image: url("https://drscdn.500px.org/photo/99890879/m%3D900/decb52aecf14ef5453c908f487d86aff");
+}
+
+#image9
+{
+    background-image: url("https://drscdn.500px.org/photo/99003363/m%3D900/v2?webp=true&sig=bb04c5905da5edbf14839d614336af02529c0f756bae0fe4382cac4505ab263d");
+}
+
+.collab-post-image {
+	display: inline-block;
+	background-size: cover;
+	flex:1;
+	width: 30vw;
+    height: 50vh;
+   /* border:1px solid red;*/
+}
+
+.collab-post-text {
+	font-weight: lighter;
+	padding-top: 10px;
+   /* border:10px solid blue;*/
+}
+
+.collab-post-info {
+	display: inline-block;
+	/*background-color: red;*/
+	background-size: cover;
+	width: 30vw;
+    height: 30vh;
+	text-align: left;
+   /* border:10px solid blue;*/
+}
+
+#collab1
+{
+    background-image: url("https://i2.wp.com/www.streethunters.net/wp-content/uploads/2014/09/athens-running-man.jpg");
+}
+
+#collab2
+{
+    background-image: url("https://i1.wp.com/www.streethunters.net/wp-content/uploads/2014/09/athens-top-view-of-the-market-lr.jpg?resize=1024%2C680&ssl=1");
+}
+
+#collab3
+{
+    background-image: url("https://i1.wp.com/www.streethunters.net/wp-content/uploads/2014/09/behind-the-old-factory.jpg?resize=1024%2C680&ssl=1");
+}
+
+.contact-info {
+	display: inline-block;
+	/*background-color: red;*/
+	background-size: cover;
+	width: 30vw;
+    height: 20vh;
+	text-align: left;
+   /* border:10px solid blue;*/
+}
+
+.contact-form {
+	display: inline-block;
+	/*background-color: red;*/
+	background-size: cover;
+	width: 30vw;
+    height: 50vh;
+	text-align: left;
+   /* border:10px solid blue;*/
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    width: 100%;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

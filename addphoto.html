@@ -1,0 +1,41 @@
+<?php
+
+session_start();
+
+if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] ==false) {
+	header('location: login.php');
+}
+
+?>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<title>Add Photo</title>
+</head>
+<body>
+
+	<div class="content-area center">
+	<div class="contact-form font-style">
+			
+	<h1> Add photo </h1>
+	<p style="margin-top: 1em"> This page is only for admin-useage purpose and can be accessed using the special key. </p>
+
+	<form action="upload.php" method="post" enctype="multipart/form-data">
+		<br/>
+		Add photo:
+		<br/>
+		<input type="file" name="fileToUpload" id="fileToUpload">
+		<input type="submit" value="Add" name="submit">
+	</form>
+
+	</div>
+	</div>
+
+	</body>
+</html>
